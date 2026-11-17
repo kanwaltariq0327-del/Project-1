@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* NAV BAR */
+
+.nav-bar {
+    position: sticky;
+    width: 100%;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.654);
+}
+
+
+
+.nav-logo img  {
+    margin-left: 20px;
+}
+.nav-logo img{
+    height: 70px;
+    width: 160px;
+}
+
+
+
+.nav-links {
+    position: absolute;
+    left: 800px;
+}
+.nav-links .link {
+    padding-left: 40px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #2CB5B4;
+    font-weight: bold;
+    font-size: 18px;    
+}
+
+
+.nav-button {
+    margin-right: 40px;
+}
+.nav-button button {
+    width: 170px;
+    height: 40px;
+    background-color: #2CB5B4;
+    color: white;
+    border: 2px solid #2CB5B4;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.nav-button button:hover {
+    box-shadow: 2px 2px 8px black;
+    transition-duration: 0.5s;
+}
+
+/* TOP SECTION */
+
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #CFF3F3;
+    height: 660px;
+}
+
+
+
+.top-section-div{
+    position:  relative;
+    left: 200px;
+    top: 25%;
+    color: #3D5D79;
+    line-height: 80px;
+}
+.top-section-div h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+.top-section-div p {
+    color: grey;
+    opacity: 0.75;
+    font-size: 18px;
+    font-weight: 500;
+}
+.top-section-div div button {
+    width: 170px;
+    height: 40px;
+    background-color: #2CB5B4;
+    color: white;
+    border: 2px solid #2CB5B4;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.top-section-div div button:hover {
+    box-shadow: 2px 2px 8px black;
+    transition-duration: 0.5s;
+}
+
+.top-section-div div a {
+    color: #3D5D79;
+    font-size: 15px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+}
+
+
+.top-section-image{
+    width: 50%;
+}
+
+
+/* 2nd SECTION */
+
+
+.second-div {
+    text-align: center;
+    margin-top: 50px;
+    height: 900px;
+}
+
+
+.second-div h1 {
+    font-size: 70px;
+    font-weight: 500;
+    color:#3D5D79;
+}
+
+
+
+.second-div button {
+    width: 170px;
+    height: 40px;
+    background-color: #2CB5B4;
+    color: white;
+    border: 2px solid #2CB5B4;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.second-div button:hover {
+    box-shadow: 2px 2px 8px black;
+    transition-duration: 0.5s;
+}
+
+
+.second-div div {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.second-div div a {
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #2CB5B4;
+    font-size: 30px;
+}
+.second-div div a img {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    margin-bottom:10px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+}
+
+/* 3rd SECTION */
+
+.buttons {
+    position: relative;
+    bottom: 400px;
+    left: 290px;
+}
+
+.screen {
+    position: relative;
+    bottom: 35px;
+    right: 295px;
+}
+
+.cam {
+    position: relative;
+    bottom: 580px;
+    right: 450px;
+}
+
+.third-section {
+    text-align: center;
+    color: #3D5D79;
+}
+
+.third-section-content {
+    display: flex;
+    margin: 20px 50px;
+    text-align: start; 
+    position: relative;
+    left: 25px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.top {
+    position: relative;
+    left: 100px;
+}
+
+.bottom {
+    position: relative;
+    right: 100px;
+}
+
+.content-p {
+    margin-top: 100px;
+    color: #3D5D79;
+    font-weight: 500;
+}
+
+.content-p2 {
+    color: #2CB5B4;
+}
+
+.third-section h1 {
+    font-size: 70px;
+    font-weight: 500;
+    color:#3D5D79;
+    margin-bottom: 50px;
+}
+
+.third-section button {
+    width: 170px;
+    height: 40px;
+    background-color: #2CB5B4;
+    color: white;
+    border: 2px solid #2CB5B4;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px grey;
+    margin-bottom: 50px;
+}
+
+.third-section button:hover {
+    box-shadow: 2px 2px 8px black;
+    transition-duration: 0.5s;
+}
+
+
+/* FOURTH SECTION */
+
+.fourth-section {
+    background-color: #CFF3F3 ;
+    text-align: center;
+    color: #3D5D79;
+    padding: 10px 0px;
+    padding-top: 20px;
+}
+
+.icons img {
+    margin: 0px 30px;
+}
+
+.icons img:hover {
+    cursor: pointer;
+}
+
+.fourth-section div .icon {
+    margin-bottom: 20px;
+}
+
+/* fifth section */
+
+.fifth-section {
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+.same {
+    padding: 10px 0px;
+}
+
+.fifth-section h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color:#3D5D79;
+    margin-bottom: 50px;
+}
+
+.para {
+    color: #3D5D79;
+    font-weight: 500;
+}
+
+.para-2 {
+    color: #2CB5B4;
+}
+
+.ind {
+    margin-top: 70px;
+}
+
+.card {
+    padding: 0px 0px 0px 40px;
+}
+
+.arr {
+    position: relative;
+    bottom: 140px;
+    padding: 0px 100px 0px 113px;
+}
+
+/* SIXTH SECTION */
+
+
+.sixth-section1 {
+    display: flex;
+}
+
+.content6 {
+    position: relative;
+    top: 150px;
+}
+
+.div1 {
+    display: flex;
+    margin-left: 200px;
+}
+
+.div1 p {
+    font-size: 40px;
+    background-color: #cff3f359;
+    height: 55px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #3D5D79;
+}
+
+.div2 {
+    margin-left: 200px;
+    color: #3D5D79;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.div2 p {
+    color: #2CB5B4;
+    font-size: 20px;
+}
+
+.div3 {
+    margin-left: 200px;
+    margin-top: 250px;
+    color: #3D5D79;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.div3 h1 {
+    width:550px;
+}
+
+.div3 p {
+    color: #2CB5B4;
+    font-size: 20px;
+}
+
+.div3 button {
+    width: 170px;
+    height: 40px;
+    background-color: #2CB5B4;
+    color: white;
+    border: 2px solid #2CB5B4;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px grey;
+    margin-top: 50px;
+}
+
+.div3 button:hover {
+    box-shadow: 2px 2px 8px black;
+    transition-duration: 0.5s;
+}
+
+.div4 {
+    margin-left: 190px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #3D5D79;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+}
+
+.div {
+    margin: 20px 60px;
+}
+
+.name {
+    margin: 20px 150px 20px 100px;
+}
+
+.social {
+    margin: 20px 250px;
+}
+
+.footer div a {
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    opacity: 0.75;
+}
+
+/* credits */
+
+.credits {
+    background-color: #3D5D79;
+    color: white;
+    display: flex;
+    padding: 15px 20px 15px 20px;
+    justify-content: space-between;
+}
+
+.credits p {
+    margin-left: 100px;
+}
+
+.credits p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.credits .credit-list {
+    display: flex;
+}
+
+.credit-list p {
+    margin: 0 50px;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
